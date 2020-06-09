@@ -1,0 +1,50 @@
+header {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 3fr 1fr;
+  background: lavender;
+}
+
+header h1 {
+  justify-self: center;
+}
+
+.ArtistSearch {
+  justify-self: center;
+  justify-items: center;
+}
+
+#songs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 100px;
+  margin-top: 25px;
+}
+
+main article {
+  display: grid;
+  justify-items: center;
+}
+
+footer {
+  background: lavender;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+}
+
+footer ul li {
+  list-style-type: none;
+  display: inline;
+}
+
+footer button {
+  color: white;
+  background: rgb(78, 78, 143);
+  padding: 5px;
+  margin-right: 10px;
+}
+
+
